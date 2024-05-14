@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.menu-github {
+    background-image: linear-gradient(to right,gray, white);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+a#projeto {
+    padding: 10px 0px 10px 5px;
+}
+
+a.github {
+    text-decoration: none;
+    color: black;    
+}
+
+a.github::after {
+    content: '\0020\1F517';
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
