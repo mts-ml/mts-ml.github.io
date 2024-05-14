@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 11</title>
+
+    <style>
+        body {
+            background-color: black;
+            margin: 0px;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-image: linear-gradient(to left, aqua 20%, blue, lightblue);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        div#fora {
+            position: relative;
+            height: 90vh;            
+            background-image: url('imagens/espaco.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+
+            
+        }
+
+        div#dentro {
+            position: absolute;
+            background-image: url('imagens/astronauta.png');
+            width: 250px;
+            height: 300px;         
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Uma viagem ao espaço</h1>
+
+    <div id="fora">
+        <div id="dentro"></div>
+    </div>
+</body>
+
+</html>
+ 
