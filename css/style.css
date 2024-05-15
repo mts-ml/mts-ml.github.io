@@ -28,5 +28,16 @@ a:hover {
     background-color: black;
     color: white;
     border-radius: 5px;
-    padding: 5px;
+    padding: 2px;
+}
+
+ a#desafio12 {
+    float: left;
+    color: white;  
+    font-weight: normal; 
+}
+
+a#desafio12:hover {
+    color: black;
+    background-color: white;
 }
