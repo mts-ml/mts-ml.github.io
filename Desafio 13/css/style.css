@@ -62,8 +62,6 @@ section#redes-sociais img:active {
     transform: scale(95%);
 }
 
-section#redes-sociais {
-    display: block;
-    padding-top: 275px;
-    text-align: right;
+section#redes-sociais {       
+    text-align: right;    
 }
