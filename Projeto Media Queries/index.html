@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>    
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Site responsivo</h1>
+
+        <div class="pulse">
+            <span id="menu" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        </div>        
+
+        <nav id="itens">
+            <ul>
+                <li><a href="#" target="_self" rel="next">Opção 1</a></li>
+                <li><a href="#" target="_self" rel="next">Opção 2</a></li>
+                <li><a href="#" target="_self" rel="next">Opção 3</a></li>
+                <li><a href="#" target="_self" rel="next">Opção 4</a></li>
+                <li><a href="#" target="_self" rel="next">Opção 5</a></li>            
+            </ul>
+        </nav>
+    </header>   
+
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt officiis necessitatibus aliquam animi nobis modi quo temporibus veritatis quod aspernatur minima ad, labore quidem libero, deleniti omnis amet architecto voluptatum nemo magni excepturi, provident expedita? Harum repellat, natus dolorem quae vitae minima numquam sit nobis similique eum facere maxime quo culpa quasi odit ducimus! Temporibus tempore nihil deserunt fugiat? Quisquam perspiciatis suscipit minima alias, aperiam, doloribus non accusamus aspernatur sapiente optio quibusdam! Reiciendis laboriosam voluptatum dignissimos dolorum minus repellat cum consequatur expedita culpa, ea corporis non, ratione quae praesentium ex provident iste autem sit consequuntur eos ad a nesciunt officiis. Quos molestias accusantium laudantium et ad ratione deserunt, aut voluptatibus quidem voluptatem assumenda esse, cumque, eum a exercitationem perspiciatis eligendi consectetur! Velit laborum reprehenderit inventore, corrupti vero ea aperiam. Inventore tenetur repellat, quas qui soluta accusamus explicabo ratione id ipsa iusto quasi facilis et nulla voluptatem officiis! Incidunt sunt officia dicta ullam facilis harum, placeat nihil quaerat accusantium quo consectetur ratione iste voluptate eligendi praesentium aspernatur quisquam, in error eum deleniti laborum quidem excepturi labore. Fugiat, temporibus vero maxime vitae eligendi ducimus cum dolorum error, labore accusantium esse impedit atque minima facilis, nam optio quibusdam quisquam. Aspernatur labore id ullam?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta incidunt soluta minima recusandae exercitationem perferendis ab nam accusamus fugiat quos. Hic eius quidem quo perferendis aliquid, laborum voluptatibus? Deleniti pariatur quod, exercitationem dolores excepturi distinctio, beatae ut dolorem unde eos minima quia qui corporis? Nesciunt perferendis incidunt excepturi molestias debitis quibusdam dignissimos similique libero accusamus? Alias eligendi voluptatibus vitae velit quibusdam molestias at, id repellendus dolorum animi, consectetur natus expedita sint sed reprehenderit ad maiores deserunt sequi soluta? Sint nisi ullam vitae sapiente, animi ex laborum maxime at vel labore ad provident, optio id dolore necessitatibus, itaque voluptate eius iusto.
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas necessitatibus cupiditate dolores ratione quo. Ad amet ullam, quam corrupti aut officiis dolore recusandae. Molestiae molestias assumenda, optio saepe eos incidunt quis fugit suscipit dolorum quo sapiente ratione cum nemo reprehenderit voluptatum aliquid tenetur harum perspiciatis facilis porro! Perferendis accusantium recusandae deserunt reprehenderit in id culpa voluptatem pariatur facere fugiat neque cum quibusdam, sapiente quaerat autem. Ut quibusdam quos repudiandae veritatis qui quisquam. Provident maiores qui reiciendis, error minima saepe nisi, perferendis modi enim ullam voluptatibus labore rerum quidem cum. Totam consectetur facere modi dolore quas rem doloribus magni debitis tenetur facilis, molestiae deserunt reiciendis voluptates tempore quaerat perferendis quod odio earum esse et similique dolores. Amet pariatur recusandae vitae nesciunt.
+            </p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }            
+        }
+
+        function mudouTamanho() {
+           if (window.innerWidth >= 852) {
+            itens.style.display = 'block'
+           } else {
+            itens.style.display = 'none'
+           }
+        }
+    </script>
+
+    <footer>
+        <p>Projeto criado por <a href="https://www.linkedin.com/in/mateus-lima-036790184/" target="_blank" rel="noopener noreferrer">Mateus Lima</a> durante o curso de HTML e CSS do <a href="https://www.cursoemvideo.com/" target="_blank" rel="noopener noreferrer">CursoemVideo</a></p>
+        <p><a href="../index.html" target="_self" rel="prev">Voltar ao menu principal</a></p>
+    </footer>
+</body>
+
+</html>

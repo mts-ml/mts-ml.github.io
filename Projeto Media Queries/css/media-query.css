@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 852px) {
+    span#menu {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        position: absolute;
+        left: 50%;  
+        transform: translate(-50%);
+        background-color: #949494;
+    }
+
+    nav li {
+        display: inline-block;   
+    }
+
+    main {
+        margin-top: 41px;
+        width: 852px;
+    }
+}
