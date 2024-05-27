@@ -62,22 +62,3 @@ footer#projeto-login > p {
 a#esquerda {
     float: left;
 }
-
-a.projeto-login {
-    color: white;
-    text-decoration: none;
-    margin-left: 5px;
-}
-
-a.projeto-login::after {
-    content: '\0020\1F517';
-}
-
-a.projeto-login:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: black;
-    border-radius: 10px;
-    padding-left: 3px;  
-    box-sizing: border-box; 
-
-}
