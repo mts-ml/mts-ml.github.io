@@ -24,7 +24,7 @@ body, html {
 main {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
 }
 
 section#login {    
@@ -54,4 +54,9 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+footer {
+    margin-top: 0px;
+    background-color: var(--cor2);
 }

@@ -31,7 +31,7 @@ a.github:hover {
     padding: 2px;
 }
 
- a#desafio12 {
+a#desafio12 {
     float: left;
     color: white;  
     font-weight: normal; 
@@ -48,4 +48,36 @@ a#projeto13 {
     left: 0%;
     margin-left: 5px;
     margin-bottom: 5px;
+}
+
+footer#projeto-login > p {
+    color: white;
+
+}
+
+footer#projeto-login > p {
+    text-align: center;
+}
+
+a#esquerda {
+    float: left;
+}
+
+a.projeto-login {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+a.projeto-login::after {
+    content: '\0020\1F517';
+}
+
+a.projeto-login:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    border-radius: 10px;
+    padding-left: 3px;  
+    box-sizing: border-box; 
+
 }
